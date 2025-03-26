@@ -1,0 +1,12 @@
+public class Administrador {
+    public boolean aprovarAlteracao() {
+        return false;
+
+
+    }
+
+    @Override
+    public String toString() {
+        return "Administrador{}";
+    }
+}
