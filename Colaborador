@@ -1,0 +1,10 @@
+public class Colaborador {
+    public void solicitarAlteracao(String novoHorarioEntrada, String novoHorarioSaida) {
+
+    }
+
+    @Override
+    public String toString() {
+        return "Colaborador{}";
+    }
+}
