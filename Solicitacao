@@ -1,0 +1,50 @@
+import java.sql.Date;
+
+public class Solicitacao {
+    private int id;
+    private String solicitacao;
+    private Date data;
+    private String status;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getSolicitacao() {
+        return solicitacao;
+    }
+
+    public void setSolicitacao(String solicitacao) {
+        this.solicitacao = solicitacao;
+    }
+
+    public Date getData() {
+        return data;
+    }
+
+    public void setData(Date data) {
+        this.data = data;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    @Override
+    public String toString() {
+        return "Solicitacao{" +
+                "id=" + id +
+                ", solicitacao='" + solicitacao + '\'' +
+                ", data=" + data +
+                ", status='" + status + '\'' +
+                '}';
+    }
+}
