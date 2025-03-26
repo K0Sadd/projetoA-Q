@@ -1,0 +1,48 @@
+public class Agendamento {
+    private int id;
+    private int entrada;
+    private int saida;
+    private int intervalo;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getEntrada() {
+        return entrada;
+    }
+
+    public void setEntrada(int entrada) {
+        this.entrada = entrada;
+    }
+
+    public int getSaida() {
+        return saida;
+    }
+
+    public void setSaida(int saida) {
+        this.saida = saida;
+    }
+
+    public int getIntervalo() {
+        return intervalo;
+    }
+
+    public void setIntervalo(int intervalo) {
+        this.intervalo = intervalo;
+    }
+
+    @Override
+    public String toString() {
+        return "Agendamento{" +
+                "id=" + id +
+                ", entrada=" + entrada +
+                ", saida=" + saida +
+                ", intervalo=" + intervalo +
+                '}';
+    }
+}
